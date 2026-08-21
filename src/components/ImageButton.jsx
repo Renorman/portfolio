@@ -18,7 +18,7 @@ export const ImageButton = ({ text, className, id}) => {
         <div className="cta-image-button group">
             <div className="bg-circle"/>
             <div className="arrow-wrapper">
-                <img src = "assets/ArrowHand_Border.png"></img>
+                <img src = "./assets/ArrowHand_Border.png"></img>
             </div>
         </div>
     </a>

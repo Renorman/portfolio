@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section id="hero" className = "relative overflow-hidden">
         <div className="absolute top-0 left-0 z-10">
-            {/*<img src = "/assets/hero-bg.png" alt="Background" /> Unecessary dots? in upper corner*/}
+            {/*<img src = "/./assets/hero-bg.png" alt="Background" /> Unecessary dots? in upper corner*/}
         </div>
 
         <div className = "hero-layout">

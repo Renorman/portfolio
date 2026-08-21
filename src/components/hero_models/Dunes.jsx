@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Dunes(props) {
-  const { nodes, materials } = useGLTF('assets/models/Dunes_v02.glb')
+  const { nodes, materials } = useGLTF('./assets/models/Dunes_v02.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Landscape.geometry} material={materials['Sand Dunes']} scale={2.408} />
@@ -15,4 +15,4 @@ export function Dunes(props) {
   )
 }
 
-useGLTF.preload('assets/models/Dunes_v02.glb')
+useGLTF.preload('./assets/models/Dunes_v02.glb')
