@@ -22,9 +22,17 @@ And additionally, despite holding no intentions to animate this character, I pus
 So, I combined box-modelling with sculpting to paint realistic seams and folds onto the outfit. And then, to maintain a reasonable poly-count, I could then bake those folds onto a lower-poly mesh.
 ` },
     { title: 'Hair',          body: `FitzChivalry Farseer has famously curly hair, which could be a challenge to model. Maintaining that curly silhouette runs the risk of dangerously increasing the model’s entire polygon count, so I opted for a more cartoonish approach instead. By making a collection of big, stylized curves to mimic his curls, I could realistically cover more of Fitz’s head with less detailed shapes. This difference was more so pronounced after decimating and simplifying the already simple curls. ` },
-    { title: 'Textures',      body: `Your text...` },
-    { title: 'Rigging',       body: `Your text...` },
-    { title: 'Set Dressing',  body: `Your text...` },
+    { title: 'Textures',      body: `To save time adding seams and unwrapping the model, which I was then unfamiliar with, I crafted procedural textures for Fitz’s hair, skin, and eyes. 
+
+His skin’s material was anchored to a base vertex-painted layer, which I then embellished with an ambient occlusion node’s impression of blood underneath. To further mimic the appearance of human skin, I mixed in a noise texture to add color variation. 
+
+For the eyes, I added a transparent mesh over the iris, which has a specialized texture to give the impression of light hitting the eye at different angles based on the viewer’s location. 
+` },
+    { title: 'Rigging',       body: `I connected a very simple rig to my model using Blender’s Rigify. Because of time constraints, I wasn’t able to put as much effort into this rig as I had in later projects. Resulting in a rudimentary rig that deforms oddly at certain pressure points. That being said, as a first attempt, this was a very solid rigging job and made posing the character much simpler..` },
+    { title: 'Set Dressing',  body: `In order to create a more dynamic render, I built a set around Fitz. I modeled out all the background elements, including the table, tablecloth, scattered food, and the surrounding puppies. The smaller props were made extremely low-poly, since they weren’t the focus of the scene, and rely heavily on shape language and texturing to get their identification across. 
+
+I played around with lighting and camera angles to properly communicate the intense, anticipatory weight of the original scene. 
+` },
   ],
   insights: `I remember being very frightened and nervous when starting this project. At the time, it seemed overly ambitious. But I ended up learning a tremendous amount about modelling, texturing, and rigging. I developed an approach for modeling organic materials from scratch. Now when I create a rough block-out, I have a better understanding of when I should apply subdivisions.
 
