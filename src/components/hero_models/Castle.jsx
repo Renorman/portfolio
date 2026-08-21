@@ -61,7 +61,7 @@ const fragmentShader = `
 `
 
 export function Castle(props) {
-  const { nodes } = useGLTF('./assets/models/Hero_BG_v04.glb')
+  const { nodes } = useGLTF('./assets/models/Hero_BG_v05.glb')
 
   const dl = useMemo(() => {
     const light = new THREE.DirectionalLight(0xffffff, 1)
@@ -93,4 +93,4 @@ export function Castle(props) {
   )
 }
 
-useGLTF.preload('./assets/models/Hero_BG_v04.glb')
+useGLTF.preload('./assets/models/Hero_BG_v05.glb')
