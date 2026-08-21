@@ -34,7 +34,7 @@ export const TemplateProj = ({
       <div>
         <Link to="/#portfolio">
           <img
-            src="./assets/ArrowHand_Border.png"
+            src="assets/ArrowHand_Border.png"
             alt="Back to portfolio"
             className="w-24 h-24 object-contain rotate-90 hover:animate-bounce transition-all duration-500" />
         </Link>
@@ -60,7 +60,9 @@ export const TemplateProj = ({
 
       {/* ── Renders slideshow ────────────────────────────────────── */}
       {renderImages.length > 0 && (
-        <ImageCarousel images={renderImages} variant="below" />
+        <div className="max-w-2xl mx-auto w-full"> 
+          <ImageCarousel images={renderImages} variant="below" />
+        </div>
       )}
 
       {/* ── Synopsis — fancy border box ──────────────────────────── */}
@@ -84,7 +86,9 @@ export const TemplateProj = ({
       {progressImages.length > 0 && (
         <div className="flex flex-col gap-4">
           <h2>Progress</h2>
-          <ImageCarousel images={progressImages} variant="side" />
+          <div className="max-w-2xl mx-auto w-full">
+            <ImageCarousel images={progressImages} variant="side" />
+          </div>
         </div>
       )}
 
