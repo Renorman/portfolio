@@ -34,7 +34,7 @@ export const TemplateProj = ({
       <div>
         <Link to="/#portfolio">
           <img
-            src="src/assets/ArrowHand_Border.png"
+            src="assets/ArrowHand_Border.png"
             alt="Back to portfolio"
             className="w-24 h-24 object-contain rotate-90 hover:animate-bounce transition-all duration-500" />
         </Link>

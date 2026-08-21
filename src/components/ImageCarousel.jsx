@@ -101,7 +101,7 @@ const ImageCarousel = ({ images = [], variant = 'below' }) => {
               aria-label="Previous"
               className="absolute left-3 top-1/2 -translate-y-1/2 bg-black-300/70 rotate-90 hover:animate-bounce text-white-100 rounded-full w-9 h-9 flex items-center justify-center transition text-xl leading-none"
             >
-              <img src = "src/assets/ArrowHand.png"/>
+              <img src = "assets/ArrowHand.png"/>
             </button>
 
             {/* Next button */}
@@ -110,7 +110,7 @@ const ImageCarousel = ({ images = [], variant = 'below' }) => {
               aria-label="Next"
               className="absolute right-3 top-1/2 -translate-y-1/2 bg-black-300/70 rotate-90 scale-y-[-1] hover:animate-bounce text-white-100 rounded-full w-9 h-9 flex items-center justify-center transition text-xl leading-none"
             >
-              <img src = "src/assets/ArrowHand.png"/>
+              <img src = "assets/ArrowHand.png"/>
             </button>
 
             {/* Counter */}

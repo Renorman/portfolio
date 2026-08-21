@@ -19,7 +19,7 @@ export const Button = ({ text, className, id}) => {
             <div className="bg-circle"/>
             <p className="text">{text}</p>
             <div className="arrow-wrapper">
-                <img src = "src/assets/ArrowHand_Border.png"></img>
+                <img src = "assets/ArrowHand_Border.png"></img>
             </div>
         </div>
     </a>

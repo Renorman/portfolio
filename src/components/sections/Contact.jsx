@@ -53,7 +53,7 @@ export const Contact = () => {
         <div 
           className="flex items-center justify-center h-full"
           style={{
-            backgroundImage: "url('src/assets/RoundBorder.png')",
+            backgroundImage: "url('assets/RoundBorder.png')",
             backgroundSize: '100% 100%',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -118,7 +118,7 @@ export const Contact = () => {
                     {loading ? "Sending..." : "Send Message"}
                   </p>
                   <div className="arrow-wrapper">
-                    <img src="src/assets/ArrowHand.png" alt="arrow" />
+                    <img src="assets/ArrowHand.png" alt="arrow" />
                   </div>
                 </div>
               </button>

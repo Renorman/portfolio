@@ -6,8 +6,8 @@ import { fitzRenders, fitzProgress } from '/src/constants/gallery.js'
 const fitzData = {
   title: 'FitzChivalry Model',
   role: 'Solo - Modeller and Rigger',
-  icons: [{ src: 'src/assets/AboutIcons/Technologies/Blender.png', alt: 'Blender' }],
-  splashSrc: 'src/assets/gallery/fitzy/FitzSplash.png',
+  icons: [{ src: 'assets/AboutIcons/Technologies/Blender.png', alt: 'Blender' }],
+  splashSrc: 'assets/gallery/fitzy/FitzSplash.png',
   synopsis: 'This Blender project served as my foray into modelling, rigging, and posing an entire character from scratch. I attempted to create a scene from Robin Hobb’s classic fantasy novel, Assassin’s Apprentice. Here you see Fitz right before making his life-changing deal with King Shrewd. This moment serves as a precipice for Fitz’s life in this book and all following. ',
   tasks: 'As this was a solo project, I was in charge of the entirety of the character creation, character rigging, and scene-dressing. I built out all Fitz’s modelling elements, textures, and props all in an attempt to create a custom, optimized character from scratch. ',
   renderImages: fitzRenders,

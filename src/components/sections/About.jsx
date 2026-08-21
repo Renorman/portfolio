@@ -20,26 +20,26 @@ export const About = () => {
                 <div className = "col-span-1">
                     <div className="image-wrapper">
                         <div className="grid-container frame-tilt">
-                            <img src = "src/assets/RoryBorder.png" alt="Me :)" />
+                            <img src = "assets/RoryBorder.png" alt="Me :)" />
                         </div>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4 pt-4">
                         <a href="https://drive.google.com/file/d/190dfc4JFY2U_lUqgr0gUkrdTVMtFA2Y5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 hover:bg-green-100 text-white-300 font-medium rounded-lg transition shadow-md">
-                            <img src="src/assets/Download.png" alt="Download" className="w-5 h-5 object-contain" />
+                            <img src="assets/Download.png" alt="Download" className="w-5 h-5 object-contain" />
                             <span>Resume</span>
                         </a>
 
                         <a href = "https://www.linkedin.com/in/rory-norman-967018221/" target="_blank" rel="noopener noreferrer">
-                            <img src="src/assets/LinkedIn.png" alt="LinkedIn" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
+                            <img src="assets/LinkedIn.png" alt="LinkedIn" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
                         </a>
 
                         <a href = "https://github.com/Renorman" target="_blank" rel="noopener noreferrer">
-                            <img src="src/assets/Github.png" alt="GitHub" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
+                            <img src="assets/Github.png" alt="GitHub" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
                         </a>
 
                         <a href = "https://www.artstation.com/renorman" target="_blank" rel="noopener noreferrer">
-                            <img src="src/assets/Artstation.png" alt="Artstation" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
+                            <img src="assets/Artstation.png" alt="Artstation" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
                         </a>
 
                     </div>
