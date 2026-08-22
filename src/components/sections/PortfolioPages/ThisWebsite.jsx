@@ -4,7 +4,7 @@ import { TemplateProj } from '../TemplateProj'
 import { ThisWebsiteRenders, ThisWebsiteProgress } from '/src/constants/gallery.js'
 
 const ThisWebsiteData = {
-  title: '',
+  title: 'This Website',
   role: <span></span>,
   icons: [{ src: '', alt: 'Blender' }],
   splashSrc: '',
@@ -38,7 +38,7 @@ const ThisWebsiteData = {
       
     </span> },
   ],
-  
+
   insights: <span>
 
       

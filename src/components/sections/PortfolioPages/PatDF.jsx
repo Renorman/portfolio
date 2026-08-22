@@ -3,7 +3,7 @@ import { TemplateProj } from '../TemplateProj'
 import { PatDFRenders, PatDFProgress } from '/src/constants/gallery.js'
 
 const PatDFData = {
-  title: '',
+  title: 'Patroclus Dies First',
   role: <span></span>,
   icons: [{ src: '', alt: 'Blender' }],
   splashSrc: '',
