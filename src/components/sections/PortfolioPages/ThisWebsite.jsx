@@ -1,21 +1,48 @@
 import React from 'react'
 
-export const ThisWebsite = () => {
-  return (
-    <section className= "app-showcase"> 
-        <div>
-          <h2>This Website</h2>
+import { TemplateProj } from '../TemplateProj'
+import { ThisWebsiteRenders, ThisWebsiteProgress } from '/src/constants/gallery.js'
 
+const ThisWebsiteData = {
+  title: '',
+  role: <span></span>,
+  icons: [{ src: '', alt: 'Blender' }],
+  splashSrc: '',
+  synopsis: <span></span>,
+  tasks: <span></span>,
+  renderImages: ThisWebsiteRenders,
+  progressImages: ThisWebsiteProgress,
+  challenges: [
+    { title: '', body: <span>
 
-          <p>
-            
-          Text
+      
+    </span> },
+    { title: '', body: <span>
 
-          </p>
-          
-          
-          
-          </div>
-    </section>
-  )
+      
+    </span> },
+    { title: '', body: <span>
+
+      
+    </span> },
+    { title: '', body: <span>
+
+      
+    </span> },
+    { title: '',body: <span>
+
+      
+    </span> },
+    { title: '',  body: <span>
+
+      
+    </span> },
+  ],
+  
+  insights: <span>
+
+      
+    </span>
 }
+
+export const ThisWebsite = () => <TemplateProj {...ThisWebsiteData} />

@@ -1,10 +1,23 @@
-export const fitzRenders = [
+
+// Composition Mission
+export const CMRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const CMProgress = [
     { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
     { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
     { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
 ]
 
-export const fitzProgress = [
+// Fitz Model
+export const FitzRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const FitzProgress = [
     { src: './assets/gallery/fitzy/ArmatureProgress.png', caption: 'Initial Armature'},
     { src: './assets/gallery/fitzy/Submission_Solid_SC.png', caption: 'Initial Clay'},
     { src: './assets/gallery/fitzy/GeneralClay.png', caption: 'Initial Clay'},
@@ -42,4 +55,64 @@ export const fitzProgress = [
     { src: './assets/gallery/fitzy/PosedFrame2.png', caption: 'Final Pose in Frame'},
     { src: './assets/gallery/fitzy/PosedFrame3.png', caption: 'Final Pose in Frame'},
     { src: './assets/gallery/fitzy/PoseVideo.mp4', caption: 'Pose in Motion'},
+]
+
+// Patroclus Dies First
+export const PatDFRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const PatDFProgress = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+
+// Procedural Environment
+export const ProEnvRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const ProEnvProgress = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+
+// Temperature App
+export const TempRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const TempProgress = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+
+// This Website
+export const ThisWebsiteRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const ThisWebsiteProgress = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+
+// Training Simulator
+export const TrainingSimRenders = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+]
+export const TrainingSimProgress = [
+    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
+    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
 ]

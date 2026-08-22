@@ -60,7 +60,7 @@ export const TemplateProj = ({
 
       {/* ── Renders slideshow ────────────────────────────────────── */}
       {renderImages.length > 0 && (
-        <div className="max-w-lg mx-auto w-full"> 
+        <div className="max-w-2xl mx-auto w-full"> 
           <ImageCarousel images={renderImages} variant="below" />
         </div>
       )}

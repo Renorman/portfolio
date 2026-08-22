@@ -1,21 +1,46 @@
 import React from 'react'
+import { TemplateProj } from '../TemplateProj'
+import { PatDFRenders, PatDFProgress } from '/src/constants/gallery.js'
 
-export const PatDF = () => {
-  return (
-    <section className= "app-showcase"> 
-        <div>
-          <h2>Patroclus Dies First</h2>
+const PatDFData = {
+  title: '',
+  role: <span></span>,
+  icons: [{ src: '', alt: 'Blender' }],
+  splashSrc: '',
+  synopsis: <span></span>,
+  tasks: <span></span>,
+  renderImages: PatDFRenders,
+  progressImages: PatDFProgress,
+  challenges: [
+    { title: '', body: <span>
 
+      
+    </span> },
+    { title: '', body: <span>
 
-          <p>
-            
-          Text
+      
+    </span> },
+    { title: '', body: <span>
 
-          </p>
-          
-          
-          
-          </div>
-    </section>
-  )
+      
+    </span> },
+    { title: '', body: <span>
+
+      
+    </span> },
+    { title: '', body: <span>
+
+      
+    </span> },
+    { title: '',  body: <span>
+
+      
+    </span> },
+  ],
+  insights: <span>
+
+      
+    </span>
 }
+
+export const PatDF = () => <TemplateProj {...PatDFData} />
