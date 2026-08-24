@@ -6,7 +6,7 @@ const TrainingSimData = {
   title: 'Training Simulator',
   role: <span><em>Team</em> - Technical Artist</span>,
   icons: [{ src: './assets/AboutIcons/Technologies/Unreal.png', alt: 'Unreal' }, { src: './assets/AboutIcons/Technologies/Blender.png', alt: 'Blender' }, { src: './assets/AboutIcons/Technologies/AdobeAudition.png', alt: 'Adobe Audition' }, { src: './assets/AboutIcons/Technologies/AdobePhotoshop.png', alt: 'Adobe Photoshop' }, { src: './assets/AboutIcons/Languages/C++.png', alt: 'C++' }],
-  splashSrc: './assets/gallery/TrainingSim/TrainingSimSplash.png',
+  splashSrc: './assets/gallery/training_sim/TrainingSimSplash.png',
   synopsis: <span>This VR docking training simulator was constructed during my time at Brunswick’s BI Design Lab. It was a virtual reality game designed with the intent to supplement boat training for Freedom Boat Club (FBC) members. By simulating the experience at a physical FBC location, our program helped people feel more confident docking <em>before</em> even having stepped on a boat!</span>,
   tasks: <span>I was primarily tasked with building out our program’s immersive environment. I modelled out a one-to-one replica of Brunswick’s Streeterville location in Chicago, Illinois. This also extended to modelling, texturing, and rigging smaller actors scattered across the scene, like the boats and seagulls. My role also included full control over sound design and the clearance to program a couple of UI screens and instructive mini-games.</span>,
   renderImages: TrainingSimRenders,

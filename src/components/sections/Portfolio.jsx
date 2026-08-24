@@ -7,7 +7,7 @@ const projects = [
     src: "./assets/gallery/Frames/TrainingSim_Frame.png",
     alt: "Training Simulator",
     title: "VR Training Simulator",
-    sub: "subtitle",
+    sub: "Environmental Modelling and Technical Art",
     icons: ["./assets/AboutIcons/Technologies/Unreal.png", "./assets/AboutIcons/Technologies/Blender.png", "./assets/AboutIcons/Technologies/AdobeAudition.png", "./assets/AboutIcons/Technologies/AdobePhotoshop.png", "./assets/AboutIcons/Languages/C++.png"],
     tilt: "",
     col: "col-span-1 md:col-span-2 xl:col-span-2 xl:row-span-2",
@@ -15,8 +15,8 @@ const projects = [
   {
     to: "/Temp",
     src: "./assets/gallery/Frames/TempApp_Frame.png",
-    alt: "Temp App Prototype",
-    title: "Temp App Prototype",
+    alt: "Temperature App Prototype",
+    title: "Temperature App Prototype",
     sub: "UI Prototype",
     icons: ["./assets/AboutIcons/Technologies/AndroidStudio.png", "./assets/AboutIcons/Languages/Java.png"],
     tilt: "frame-tilt--right",
@@ -89,7 +89,7 @@ export const Portfolio = () => {
         {projects.map((p) => (
           <div key={p.to} className={p.col}>
             <div className={`grid-container frame-tilt ${p.tilt}`}>
-              <Link to={p.to} className="relative block group">
+              <Link to={p.to} className="relative block group" onClick={() => window.scrollTo(0, 0)}>
 
                 {/* Image */}
                 <img

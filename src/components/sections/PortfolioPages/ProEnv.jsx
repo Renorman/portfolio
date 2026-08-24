@@ -3,7 +3,7 @@ import { TemplateProj } from '../TemplateProj'
 import { ProEnvRenders, ProEnvProgress } from '/src/constants/gallery.js'
 
 const PatDFData = {
-  title: '',
+  title: 'Procedural Environment',
   role: <span></span>,
   icons: [{ src: '', alt: 'Blender' }],
   splashSrc: '',

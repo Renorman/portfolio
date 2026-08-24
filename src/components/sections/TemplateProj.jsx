@@ -60,7 +60,7 @@ export const TemplateProj = ({
 
       {/* ── Renders slideshow ────────────────────────────────────── */}
       {renderImages.length > 0 && (
-        <div className="max-w-2xl mx-auto w-full"> 
+        <div className="max-w-9/10 mx-auto w-full"> 
           <ImageCarousel images={renderImages} variant="below" />
         </div>
       )}
@@ -86,7 +86,7 @@ export const TemplateProj = ({
       {progressImages.length > 0 && (
         <div className="flex flex-col gap-4">
           <h2>Progress</h2>
-          <div className="max-w-md mx-auto w-full">
+          <div className="max-w-3/4 mx-auto w-full">
             <ImageCarousel images={progressImages} variant="side" />
           </div>
         </div>
