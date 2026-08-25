@@ -89,7 +89,15 @@ export const Portfolio = () => {
         {projects.map((p) => (
           <div key={p.to} className={p.col}>
             <div className={`grid-container frame-tilt ${p.tilt}`}>
-              <Link to={p.to} className="relative block group" onClick={() => window.scrollTo(0, 0)}>
+              <Link 
+                to={p.to} 
+                className="relative block group" 
+                onClick={() => {
+                  setTimeout(() => {
+                    window.scrollTo(0, 0);
+                }, 100);
+                }}
+              >
 
                 {/* Image */}
                 <img
