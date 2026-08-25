@@ -48,7 +48,7 @@ export const About = () => {
                 {/* DESCRIPTION */}
                 <div className = "col-span-1">
                     <div className = "hero-text">
-                            <h1>Nice to meet you!</h1>
+                            <h4>Nice to meet you!</h4>
                     </div>
                     
                     <p className="pt-5 text-white-100 md:text-xl relative z-10 pointer-events-none">

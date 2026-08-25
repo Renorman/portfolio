@@ -1,9 +1,9 @@
 
 // Composition Mission
 export const CMRenders = [
-    { src: './assets/gallery/composition_mission/HiFi_Profile.mp4', caption: "High-Fidelity Prototype of the Profile Page"},
-    { src: './assets/gallery/composition_mission/HiFi_Create.mp4', caption: "High-Fidelity Prototype of the Create Page"},
-    { src: './assets/gallery/composition_mission/HiFi_Explore.mp4', caption: "High-Fidelity Prototype of the Explore Page"},
+     
+    { type: 'video', src: './assets/gallery/composition_mission/HiFi_Create.mp4', caption: "High-Fidelity Prototype of the Create Page"},
+    { type: 'video', src: './assets/gallery/composition_mission/HiFi_Explore.mp4', caption: "High-Fidelity Prototype of the Explore Page"},
     { src: './assets/gallery/composition_mission/CompMiss_Render.png', caption: "Composition Mission's Laptop Mockup"},
 ]
 export const CMProgress = [
@@ -17,13 +17,13 @@ export const CMProgress = [
     { src: './assets/gallery/composition_mission/ThumbnailSketch2.png', caption: "Initial Thumbnail Sketches"},
     { src: './assets/gallery/composition_mission/ThumbnailSketch3.png', caption: "Initial Thumbnail Sketches"},
     { src: './assets/gallery/composition_mission/ThumbnailSketch4.png', caption: "Initial Thumbnail Sketches"},
-    { src: './assets/gallery/composition_mission/LowFi.mp4', caption: "Our Original Low-Fidelity Prototype"},
+    { type: 'video', src: './assets/gallery/composition_mission/LowFi.mp4', caption: "Our Original Low-Fidelity Prototype"},
     { src: './assets/gallery/composition_mission/LowFi_Figma.png', caption: "The Figma Space for our Low-Fi Prototype"},
     { src: './assets/gallery/composition_mission/LowFi_Create.png', caption: "The Low-Fi Create Screen"},
     { src: './assets/gallery/composition_mission/LowFi_Explore.png', caption: "The Low-Fi Explore Screen"},
     { src: './assets/gallery/composition_mission/Logo.png', caption: "Our Website's Logo"},
     { src: './assets/gallery/composition_mission/HiFi_Create.png', caption: "The Hi-Fi Create Screen"},
-    { src: './assets/gallery/composition_mission/HiFi_Explore.png', caption: "The Hi-Fi Explore Screen"},
+    { src: './assets/gallery/composition_mission/HiFi_Create2.png', caption: "The Hi-Fi Create Screen"},
     { src: './assets/gallery/composition_mission/HiFi_Library.png', caption: "The Hi-Fi Profile's Library Screen"},
 
 ]
@@ -60,7 +60,7 @@ export const FitzProgress = [
     { src: './assets/gallery/fitzy/Hair.png', caption: 'Hair Screen Grab'},
     { src: './assets/gallery/fitzy/SkinClose.png', caption: 'Skin Texture'},
     { src: './assets/gallery/fitzy/SkinMaterialShader.png', caption: 'Skin Shader'},
-    { src: './assets/gallery/fitzy/SkinMaterialVideo.mp4', caption: 'Procedural Material'},
+    { type: 'video', src: './assets/gallery/fitzy/SkinMaterialVideo.mp4', caption: 'Procedural Material'},
     { src: './assets/gallery/fitzy/PosedColor.png', caption: 'Final Pose Color'},
     { src: './assets/gallery/fitzy/PosedColor2.png', caption: 'Final Pose Color'},
     { src: './assets/gallery/fitzy/PosedColor3.png', caption: 'Background Props'},
@@ -71,38 +71,88 @@ export const FitzProgress = [
     { src: './assets/gallery/fitzy/PosedFrame.png', caption: 'Final Pose in Frame'},
     { src: './assets/gallery/fitzy/PosedFrame2.png', caption: 'Final Pose in Frame'},
     { src: './assets/gallery/fitzy/PosedFrame3.png', caption: 'Final Pose in Frame'},
-    { src: './assets/gallery/fitzy/PoseVideo.mp4', caption: 'Pose in Motion'},
+    { type: 'video', src: './assets/gallery/fitzy/PoseVideo.mp4', caption: 'Pose in Motion'},
 ]
 
 // Patroclus Dies First
 export const PatDFRenders = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/FinalGame.mp4', caption: 'Snippet of the Final Visual Novel'},
+    { src: './assets/gallery/patroclus_dies_first/Pip_Final.png', caption: "Pip (the Player Character)'s Final Model"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisFinal.png', caption: "Thetis's Final Model"},
+    { src: './assets/gallery/patroclus_dies_first/HildaFinal.png', caption: "Princess Hilda's Final Model"},
 ]
 export const PatDFProgress = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { src: './assets/gallery/patroclus_dies_first/HildaBase.png', caption: "Hilda's Base Model"},
+    { src: './assets/gallery/patroclus_dies_first/HildaProgress1.png', caption: "Progress Modelling Out Hilda"},
+    { src: './assets/gallery/patroclus_dies_first/HildaProgress2.png', caption: "Progress Modelling Out Hilda"},
+    { src: './assets/gallery/patroclus_dies_first/HildaProgress3.png', caption: "Progress Modelling Out Hilda"},
+    { src: './assets/gallery/patroclus_dies_first/HildaProgress4.png', caption: "Progress Modelling Out Hilda"},
+    { src: './assets/gallery/patroclus_dies_first/HildaNearlyFinished.png', caption: "Progress Modelling Out Hilda - Compare the Hair!"},
+    { src: './assets/gallery/patroclus_dies_first/HildaFace_Texture.png', caption: "Custom CrossHatch Texture"},
+    { src: './assets/gallery/patroclus_dies_first/HildaProgress5.png', caption: "Progress Modelling Out Hilda"},
+    { src: './assets/gallery/patroclus_dies_first/HildaFinal_Clay.png', caption: "Princess Hilda's Final Model - Clay View"},
+    { src: './assets/gallery/patroclus_dies_first/HildaFinal_Wire.png', caption: "Princess Hilda's Final Model - Wire View"},
+    { src: './assets/gallery/patroclus_dies_first/HildaWire.png', caption: "Hilda Close-Up in Wire"},
+
+    { src: './assets/gallery/patroclus_dies_first/HildaFaceWeightPaint.gif', caption: "Princess Hilda's Weight Paint - Face"},
+    { src: './assets/gallery/patroclus_dies_first/HildaFaceWeightPaint2.gif', caption: "Princess Hilda's Weight Paint - Body"},
+    
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/HildaFace.mp4', caption: "Hilda's Facial Rig"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/HildaFace_ShapeKeys.mp4', caption: "Hilda's Facial Shape Keys"},
+    { src: './assets/gallery/patroclus_dies_first/HildaExpression.png', caption: "Hilda Making a Face"},
+    { src: './assets/gallery/patroclus_dies_first/HildaPose.png', caption: "Hilda's Sleeping Pose"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/BlenderHatch.mp4', caption: "Custom CrossHatch Shader"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/HildaRig.mp4', caption: "Hilda's Sleeping Rig and Animation"},
+
+    { src: './assets/gallery/patroclus_dies_first/PipOriginalRig.png', caption: "Pip (the Player Character)'s Rig was Originally Going to Just be Arms!"},
+    { src: './assets/gallery/patroclus_dies_first/PipRig2.png', caption: "Pip (the Player Character)'s Updated Rig"},
+    { src: './assets/gallery/patroclus_dies_first/PipFinal_Clay.png', caption: "Pip (the Player Character)'s Final Model - Clay View"},
+    { src: './assets/gallery/patroclus_dies_first/PipFinal_Wire.png', caption: "Pip (the Player Character)'s Final Model - Wire View"},
+    { src: './assets/gallery/patroclus_dies_first/PipRig.png', caption: "Pip (the Player Character)'s Poses"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/PipRig.mp4', caption: "Pip (the Player Character)'s Pose Library and Animations"},
+
+    { src: './assets/gallery/patroclus_dies_first/ThetisBase.png', caption: "Progress Modelling Out Thetis"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisProgress.png', caption: "Progress Modelling Out Thetis"},
+    { src: './assets/gallery/patroclus_dies_first/Thetis_TextureMap.png', caption: "Thetis's Body & Tail UV Map - Color View"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisWire.png', caption: "Thetis's Body & Tail UV Map - Wire View"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisFace.png', caption: "Thetis Close-Up"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisFinal_Clay.png', caption: "Thetis's Final Model - Clay View"},
+    { src: './assets/gallery/patroclus_dies_first/ThetisFinal_Wire.png', caption: "Thetis's Final Model - Wire View"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/ThetisAnimation.mp4', caption: "Thetis's Pose Library and Animations"},
+    { type: 'youtube', videoId: 'tOBqTsyQp60', caption: "Thetis Rig and Poses"},
+
+    { src: './assets/gallery/patroclus_dies_first/UnityProgress.png', caption: "Scene Blockout in Unity"},
+    { src: './assets/gallery/patroclus_dies_first/UnityHalftoneShader.png', caption: "Custom Procedural Halftone Shader in Unity"},
+    { src: './assets/gallery/patroclus_dies_first/UnitySketchShader.png', caption: "Custom Procedural Sketch Shader in Unity"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/UnityMaterial.mp4', caption: "Procedural Materials in Unity"},
+    { src: './assets/gallery/patroclus_dies_first/GameAnimator.png', caption: "Unity's Animation Graph"},
+    { src: './assets/gallery/patroclus_dies_first/GameScreenGrab.png', caption: "Still of the Final Game"},
+    
+    
 ]
 
 // Procedural Environment
 export const ProEnvRenders = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { type: 'video', src: './assets/gallery/auto_landscape/BlenderFinal.mp4', caption: "My Final Blender File for Customized Landscapes"},
+    { type: 'video', src: './assets/gallery/auto_landscape/Apr29_FinalUpdate.mkv', caption: "My Final Display of an Automated Landscape Material in Unreal"},
 ]
 export const ProEnvProgress = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { type: 'video', src: './assets/gallery/auto_landscape/HeightMapShader.mp4', caption: "Custom Height Map Material in Blender"},
+    { type: 'video', src: './assets/gallery/auto_landscape/EnvironmentProgress.mp4', caption: "Progress on Perfecting Blender's GeoNode Setup for the Final Landscape"},
+    { type: 'video', src: './assets/gallery/auto_landscape/Mar04_Update_StartAuto.mkv', caption: "Beginning to Play Around with Unreal's Material Graph and Procedural Materials"},
+    { type: 'video', src: './assets/gallery/auto_landscape/Mar25_Update_ResearchProgress.mkv', caption: "Continued Progress on the AutoMaterial & Research Into Scattered Foliage Models"},
+    { type: 'video', src: './assets/gallery/auto_landscape/Apr01_TilingCamera.mkv', caption: "Continued Progress on the AutoMaterial with Customized Tiling Patterns Based on the Camera's Distance from Material"},
+    { type: 'video', src: './assets/gallery/auto_landscape/Apr15_DrawingTextures.mkv', caption: "Continued Progress on the AutoMaterial with Ability to Draw Materials onto the Base AutoMaterial"},
+    { type: 'video', src: './assets/gallery/auto_landscape/ok.mkv', caption: "Continued Progress on the AutoMaterial"},
+    { src: './assets/gallery/auto_landscape/BlenderFinal.png', caption: "Final Blender Workspace"},
+    
 ]
 
 // Temperature App
 export const TempRenders = [
-    { src: './assets/gallery/temp_app/FinalHome.mp4', caption: "Our alpha prototype's home screen. I did the initial design, and the final design was coded out by another team member."},
-    { src: './assets/gallery/temp_app/FinalSchedule.mov', caption: "Our alpha prototype's scheduling screen. Initial and Final designs were done by other team members."},
-    { src: './assets/gallery/temp_app/MapScreenFinal.mp4', caption: "Our alpha prototype's map screen. The initial design was done by another team member, and I coded out the final design using Android Studio."},
+    { type: 'video', src: './assets/gallery/temp_app/FinalHome.mp4', caption: "Our alpha prototype's home screen. I did the initial design, and the final design was coded out by another team member."},
+    { type: 'video', src: './assets/gallery/temp_app/FinalSchedule.mov', caption: "Our alpha prototype's scheduling screen. Initial and Final designs were done by other team members."},
+    { type: 'video', src: './assets/gallery/temp_app/MapScreenFinal.mp4', caption: "Our alpha prototype's map screen. The initial design was done by another team member, and I coded out the final design using Android Studio."},
     { src: './assets/gallery/temp_app/TempMock.png', caption: "The Map Screen's Mockup"},
 ]
 export const TempProgress = [
@@ -117,13 +167,13 @@ export const TempProgress = [
     { src: './assets/gallery/temp_app/InterviewFindings.png', caption: 'Our Interview Findings'},
     { src: './assets/gallery/temp_app/FeedbackImplementation.png', caption: 'How We Plan to Implement Feedback into our Designs'},
     { src: './assets/gallery/temp_app/HomePaperThumbnail.png', caption: 'My Thumbnail Sketch for the Home Screen'},
-    { src: './assets/gallery/temp_app/HomePaper1.mov', caption: 'My First Paper Prototype for the Home Screen'},
+    { type: 'video', src: './assets/gallery/temp_app/HomePaper1.mov', caption: 'My First Paper Prototype for the Home Screen'},
     { src: './assets/gallery/temp_app/HomePaper1.png', caption: 'Still of My First Paper Prototype for the Home Screen'},
     { src: './assets/gallery/temp_app/HomePaper1_Pieces.png', caption: "My First Paper Prototype for the Home Screen's Pieces"},
-    { src: './assets/gallery/temp_app/HomePaper2.MOV', caption: 'My Second Paper Prototype for the Home Screen'},
+    { type: 'video', src: './assets/gallery/temp_app/HomePaper2.MOV', caption: 'My Second Paper Prototype for the Home Screen'},
     { src: './assets/gallery/temp_app/MapPaper.png', caption: 'The Paper Prototype for the Map Screen - Designed by Another Team Member'},
-    { src: './assets/gallery/temp_app/MapScreen1.mp4', caption: 'Working Prototype for the Map Screen'},
-    { src: './assets/gallery/temp_app/MapScreen2.mp4', caption: 'Working Prototype for the Map Screen with Static Calibration'},
+    { type: 'video', src: './assets/gallery/temp_app/MapScreen1.mp4', caption: 'Working Prototype for the Map Screen'},
+    { type: 'video', src: './assets/gallery/temp_app/MapScreen2.mp4', caption: 'Working Prototype for the Map Screen with Static Calibration'},
     { src: './assets/gallery/temp_app/StaticCalibration.png', caption: 'Static Calibration Image'},
     { src: './assets/gallery/temp_app/UserTesting.png', caption: 'User Feedback'},
 ]
@@ -142,7 +192,7 @@ export const ThisWebsiteProgress = [
 
 // Training Simulator
 export const TrainingSimRenders = [
-    { src: './assets/gallery/training_sim/FinalNPCMove.mp4', caption: "Final Scenery in Unreal Complete with an NPC Boat"},
+    { type: 'video', src: './assets/gallery/training_sim/FinalNPCMove.mp4', caption: "Final Scenery in Unreal Complete with an NPC Boat"},
     { src: './assets/gallery/training_sim/FinalRender1.png', caption: "Environment in Unreal Engine"},
     { src: './assets/gallery/training_sim/FinalRender2.png', caption: "Environment in Unreal Engine"},
     { src: './assets/gallery/training_sim/FinalRender3.png', caption: "Environment in Unreal Engine"},

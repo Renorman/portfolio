@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <section id = "footer" className="footer">
         <div className = "footer-container">
-            <h3 className = "col-span-1 flex items-center justify-center md:justify-start">
+            <h5 className = "col-span-1 flex items-center justify-center md:justify-start">
                 Designed, modeled, and coded by Rory :^)
-            </h3>
+            </h5>
 
             <div className="col-span-1 flex items-center justify-center md:justify-end gap-4">
                 <a href = "https://www.linkedin.com/in/rory-norman-967018221/" target="_blank" rel="noopener noreferrer">

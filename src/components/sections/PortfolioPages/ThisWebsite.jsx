@@ -4,36 +4,28 @@ import { TemplateProj } from '../TemplateProj'
 import { ThisWebsiteRenders, ThisWebsiteProgress } from '/src/constants/gallery.js'
 
 const ThisWebsiteData = {
-  title: 'This Website',
-  role: <span></span>,
-  icons: [{ src: '', alt: 'Blender' }],
-  splashSrc: '',
+  title: 'My Portfolio Website',
+  role: <span><em>Solo</em> - Designer, Modeller, and Programmer</span>,
+  icons: [{ src: "./assets/AboutIcons/Technologies/Figma.png", alt: 'Figma' }, { src: "./assets/AboutIcons/Technologies/Blender.png", alt: 'Blender' }, { src: "./assets/AboutIcons/Technologies/Affinity.png", alt: 'Affinity' }, { src: "./assets/AboutIcons/Technologies/React.png", alt: 'React' }, { src: "./assets/AboutIcons/Technologies/Tailwind.png", alt: 'Tailwind' }, { src: "./assets/AboutIcons/Technologies/ThreeJS.png", alt: 'ThreeJS' }, { src: "./assets/AboutIcons/Languages/CSS.png", alt: 'CSS' }, { src: "./assets/AboutIcons/Languages/HTML.png", alt: 'HTML' }],
+  splashSrc: "./assets/gallery/this_website/this_website_splash.png",
   synopsis: <span></span>,
   tasks: <span></span>,
   renderImages: ThisWebsiteRenders,
   progressImages: ThisWebsiteProgress,
   challenges: [
-    { title: '', body: <span>
+    { title: 'Visual Identity', body: <span> Blurb Under Construction!
 
       
     </span> },
-    { title: '', body: <span>
+    { title: '3D Landing Screen', body: <span> Blurb Under Construction!
 
       
     </span> },
-    { title: '', body: <span>
+    { title: 'Programming', body: <span> Blurb Under Construction!
 
       
     </span> },
-    { title: '', body: <span>
-
-      
-    </span> },
-    { title: '',body: <span>
-
-      
-    </span> },
-    { title: '',  body: <span>
+    { title: 'Writing', body: <span> Blurb Under Construction!
 
       
     </span> },

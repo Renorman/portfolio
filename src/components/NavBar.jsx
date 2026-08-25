@@ -24,7 +24,7 @@ export const NavBar = () => {
     <header className = {`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
       <div className = "inner">
         <Link className="logo" to="#hero">
-          <h2>Rory Norman</h2>
+          <h4>Rory Norman</h4>
         </Link>
 
         <nav className="desktop">

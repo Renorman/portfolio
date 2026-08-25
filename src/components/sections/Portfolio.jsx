@@ -55,8 +55,8 @@ const projects = [
   {
     to: "/ThisWebsite",
     src: "./assets/gallery/Frames/ThisWebsite_Frame.png",
-    alt: "This Portfolio Website",
-    title: "This Portfolio Website",
+    alt: "My Portfolio Website",
+    title: "My Portfolio Website",
     sub: "Website Design",
     icons: ["./assets/AboutIcons/Technologies/Figma.png", "./assets/AboutIcons/Technologies/Blender.png", "./assets/AboutIcons/Technologies/Affinity.png", "./assets/AboutIcons/Technologies/React.png", "./assets/AboutIcons/Technologies/Tailwind.png", "./assets/AboutIcons/Technologies/ThreeJS.png", "./assets/AboutIcons/Languages/CSS.png", "./assets/AboutIcons/Languages/HTML.png"],
     tilt: "frame-tilt--left",

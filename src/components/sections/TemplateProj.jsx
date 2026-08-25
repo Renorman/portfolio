@@ -21,24 +21,29 @@ export const TemplateProj = ({
 }) => {
   return (
     <><section className="w-full min-h-screen px-5 md:px-10 py-10 flex flex-col gap-16">
-      {/* ── Splash image ─────────────────────────────────────────── */}
-      {splashSrc && (
-        <div className="w-fit max-h-[30vh] overflow-visible rounded-xl">
-          <img
-            src={splashSrc}
-            alt={title}
-            className="w-full h-full object-cover" />
-        </div>
-      )}
-      {/* ── Back arrow ───────────────────────────────────────────── */}
+
       <div>
+        {/* ── BACK ARROW!!! ─────────────────────────────────────────── */}
         <Link to="/#portfolio">
           <img
             src="assets/ArrowHand_Border.png"
             alt="Back to portfolio"
             className="w-24 h-24 object-contain rotate-90 hover:animate-bounce transition-all duration-500" />
         </Link>
+
+        {/* ── Splash image ─────────────────────────────────────────── */}
+        {splashSrc && (
+          <div className="w-fit max-h-[30vh] overflow-visible rounded-xl">
+            <img
+              src={splashSrc}
+              alt={title}
+              className="w-full h-full object-cover" />
+          </div>
+        )}
+
+
       </div>
+      
 
       {/* ── Title block ──────────────────────────────────────────── */}
       <div className="flex flex-col gap-2">
@@ -52,7 +57,7 @@ export const TemplateProj = ({
                 src={icon.src}
                 alt={icon.alt}
                 title={icon.alt}
-                className="w-8 h-8 object-contain" />
+                className="w-12 h-12 object-contain" />
             ))}
           </div>
         )}
@@ -61,7 +66,7 @@ export const TemplateProj = ({
       {/* ── Renders slideshow ────────────────────────────────────── */}
       {renderImages.length > 0 && (
         <div className="max-w-9/10 mx-auto w-full"> 
-          <ImageCarousel images={renderImages} variant="below" />
+          <ImageCarousel images={renderImages} variant="below" mainHeight={500}/>
         </div>
       )}
 
@@ -86,8 +91,8 @@ export const TemplateProj = ({
       {progressImages.length > 0 && (
         <div className="flex flex-col gap-4">
           <h2>Progress</h2>
-          <div className="max-w-3/4 mx-auto w-full">
-            <ImageCarousel images={progressImages} variant="side" />
+          <div className="max-w-8/10 mx-auto w-full">
+            <ImageCarousel images={progressImages} variant="side" mainHeight={400}/>
           </div>
         </div>
       )}
@@ -148,7 +153,7 @@ const BorderBoxOutlined = ({ children }) => (
 // Scrollable green card for each challenge entry.
 const ChallengeBox = ({ title, body }) => (
   <div className="flex flex-col gap-3 bg-black-10 border border-white-100/20 rounded-xl p-5 max-h-72 overflow-y-auto">
-    <h3 className="text-white-100">{title}</h3>
+    <h5 className="text-white-100">{title}</h5>
     <p style={{ whiteSpace: 'pre-wrap' }} className="text-white-100/80 text-sm leading-relaxed">{body}</p>
   </div>
 )
