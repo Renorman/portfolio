@@ -25,7 +25,7 @@ export const About = () => {
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4 pt-4">
-                        <a href="https://drive.google.com/file/d/1NWmzsaMRO-CZrSOhUKfyMJoeonklmF_H/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 hover:bg-green-100 text-white-300 font-medium rounded-lg transition shadow-md">
+                        <a href="https://drive.google.com/file/d/1bdDkwv4_k1OORvWW10Yf9g-_wokS5IjD/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 hover:bg-green-100 text-white-300 font-medium rounded-lg transition shadow-md">
                             <img src="./assets/Download.png" alt="Download" className="w-5 h-5 object-contain" />
                             <span>Resume</span>
                         </a>
