@@ -10,7 +10,7 @@ export const navLinks = [
     },
     {
         name: "Resume",
-        link: "https://docs.google.com/document/d/1d02YA7P1f1c1VgTxDG02zTJJJCtGqFdyZCepMnV7uts/edit?usp=sharing",
+        link: "https://drive.google.com/file/d/1NWmzsaMRO-CZrSOhUKfyMJoeonklmF_H/view?usp=sharing",
     },
     {
         name:"Contact",

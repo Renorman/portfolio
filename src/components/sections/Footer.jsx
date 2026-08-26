@@ -5,11 +5,11 @@ export const Footer = () => {
     <section id = "footer" className="footer">
         <div className = "footer-container">
             <h5 className = "col-span-1 flex items-center justify-center md:justify-start">
-                Designed, modeled, and coded by Rory :^)
+                Designed, modeled, and coded by Rory ( ˘ᴗ˘ )
             </h5>
 
             <div className="col-span-1 flex items-center justify-center md:justify-end gap-4">
-                <a href = "https://www.linkedin.com/in/rory-norman-967018221/" target="_blank" rel="noopener noreferrer">
+                <a href = "https://www.linkedin.com/in/renorman/" target="_blank" rel="noopener noreferrer">
                     <img src="./assets/LinkedIn.png" alt="LinkedIn" className="w-10 h-10 rounded-lg object-contain hover:opacity-70 transition" />
                 </a>
 
