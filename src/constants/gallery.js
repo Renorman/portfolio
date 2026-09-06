@@ -82,6 +82,9 @@ export const PatDFRenders = [
     { src: './assets/gallery/patroclus_dies_first/HildaFinal.png', caption: "Princess Hilda's Final Model"},
 ]
 export const PatDFProgress = [
+    { src: './assets/gallery/patroclus_dies_first/pdf_inspo_brainstorm1.png', caption: "Design Inspiration / Brainstorm"},
+    { src: './assets/gallery/patroclus_dies_first/pdf_inspo_brainstorm2.png', caption: "Design Inspiration / Brainstorm"},
+
     { src: './assets/gallery/patroclus_dies_first/HildaBase.png', caption: "Hilda's Base Model"},
     { src: './assets/gallery/patroclus_dies_first/HildaProgress1.png', caption: "Progress Modelling Out Hilda"},
     { src: './assets/gallery/patroclus_dies_first/HildaProgress2.png', caption: "Progress Modelling Out Hilda"},
@@ -127,6 +130,7 @@ export const PatDFProgress = [
     { type: 'video', src: './assets/gallery/patroclus_dies_first/UnityMaterial.mp4', caption: "Procedural Materials in Unity"},
     { src: './assets/gallery/patroclus_dies_first/GameAnimator.png', caption: "Unity's Animation Graph"},
     { src: './assets/gallery/patroclus_dies_first/GameScreenGrab.png', caption: "Still of the Final Game"},
+    { type: 'video', src: './assets/gallery/patroclus_dies_first/CurrentProgress.mp4', caption: "Unity Setup Progress"},
     
     
 ]
@@ -180,14 +184,54 @@ export const TempProgress = [
 
 // This Website
 export const ThisWebsiteRenders = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { type: 'video', src: './assets/gallery/this_website/Final_Web.mp4', caption: "Final Web Product"},
+    { type: 'video', src: './assets/gallery/this_website/Final_Responsive.mp4', caption: "Web's Responsiveness"},
 ]
 export const ThisWebsiteProgress = [
-    { src: './assets/gallery/fitzy/FitzRender2.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender.png', caption: 'Final Render'},
-    { src: './assets/gallery/fitzy/FitzRender3.png', caption: 'Final Render'},
+    { type: 'youtube', videoId: 'TSS0FCcPFZ4', caption: "Initial Paper Prototype"},
+
+    { type: 'video', src: './assets/gallery/this_website/Portfolio_LowFi.mp4', caption: "Low-Fidelity Prototype"},
+    { src: './assets/gallery/this_website/lowfi_figma_workspace1.png', caption: "Low-Fidelity Prototype's Figma Workspace"},
+    { src: './assets/gallery/this_website/lowfi_figma_workspace2.png', caption: "Low-Fidelity Prototype's Figma Workspace"},
+
+    { src: './assets/gallery/this_website/website_inspo.png', caption: "This Website's Design Inspiration"},
+    { src: './assets/gallery/this_website/midfi_figma_workspace.png', caption: "Low-Fidelity Prototype 2.0"},
+
+    { src: './assets/gallery/this_website/hifi_figma_workspace.png', caption: "High-Fidelity Prototype's Figma Workspace"},
+    { src: './assets/gallery/this_website/hifi_figma_workspace2.png', caption: "High-Fidelity Prototype's Figma Workspace"},
+    { src: './assets/gallery/this_website/Figma_Splash_Prototype.png', caption: "High-Fidelity Prototype's Splash Screen"},
+    { src: './assets/gallery/this_website/Figma_Portfolio_Prototype.png', caption: "High-Fidelity Prototype's Portfolio Screen"},
+    { src: './assets/gallery/this_website/Figma_About_Prototype.png', caption: "High-Fidelity Prototype's About Screen"},
+    { src: './assets/gallery/this_website/Figma_Contact_Prototype.png', caption: "High-Fidelity Prototype's Contact Screen"},
+
+    { type: 'video', src: './assets/gallery/this_website/SplashModel_Clay.mp4', caption: "The Castle Mountain Range - Blender Clay View"},
+    { src: './assets/gallery/this_website/BlenderWire.png', caption: "The Castle Mountain Range - Blender Wire View"},
+    { src: './assets/gallery/this_website/SplashModel_OGTexture.png', caption: "The Castle Mountain Range's Original Colored Material"},
+    { src: './assets/gallery/this_website/SplashModel_BlenderMaterial.png', caption: "The Castle Mountain Range's Hatched Material Progress"},
+    { src: './assets/gallery/this_website/BlenderTexture.png', caption: "The Castle Mountain Range's Hatched Material Progress"},
+    { src: './assets/gallery/this_website/SplashModel_BlenderMaterial2.png', caption: "The Castle Mountain Range's Hatched Material Progress"},
+    
+    { src: './assets/gallery/this_website/BlenderShader.png', caption: "Shader Graph for Blender's Procedural Hatch Material"},
+    { type: 'video', src: './assets/gallery/this_website/SplashModel_Blender_ShaderGraph.mp4', caption: "Custom Blender Procedural Hatch Material"},
+    { type: 'video', src: './assets/gallery/this_website/SplashModel_BlenderMaterial_Hatch.mp4', caption: "Custom Blender Procedural Hatch Material"},
+    { type: 'video', src: './assets/gallery/this_website/SplashModel_BlenderMaterial_Light.mp4', caption: "How the Material Responds to Light"},
+    { type: 'video', src: './assets/gallery/this_website/SplashModel_BlenderMaterial.mp4', caption: "The Castle Mountain Range - Blender Render View"},
+
+    { src: './assets/gallery/this_website/WebsiteModelProgress1.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress3.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress2.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress4.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress5.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress6.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress7.png', caption: "Transferring Cycles Material to Three.js"},
+    { src: './assets/gallery/this_website/WebsiteModelProgress8.png', caption: "Transferring Cycles Material to Three.js"},
+
+    { type: 'video', src: './assets/gallery/this_website/SplashModel.mp4', caption: "The Castle Mountain Range - Website View"},
+
+    { src: './assets/gallery/this_website/custom_icons.png', caption: "Designing Custom Icons in Affinity"},
+    { src: './assets/gallery/this_website/Gallery_Grid.png', caption: "Coding Out Portfolio Page's Responsive Grid"},
+    
+    
 ]
 
 // Training Simulator
